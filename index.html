@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+            <!-- ANIMEJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+            <!-- IONICONS -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+        <!-- font icon xcon -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- SCROLL REVEAL ANIMATIONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css"
+    />
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+        <script src="https://kit.fontawesome.com/3dc18c3aaf.js" crossorigin="anonymous"></script>
+        <title>Jordan BOUTROIS</title>
+    </head>
+    <body>
+             <!-- Header -->
+            <header class="hero-section">
+
+            <!-- HERO LOGO -->
+                <div class="hero-logo">
+                    JB
+                </div>
+                <!-- BURGER -->
+                <div class="menuIcon">
+                    <ion-icon name="menu"></ion-icon>
+                </div>
+                <!-- MEDIA -->
+                <div class="media">
+                    <ul>
+                        <li>
+                          <a href="https://github.com/Boutroisjordan?tab=repositories" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                        </li>
+                        <li>
+                          <a href="https://www.youtube.com/channel/UCPXcdD5FYa8sxeWyeMPoegg" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                        </li>
+                        <li>
+                          <a href="https://www.linkedin.com/in/jordan-boutrois-3313101bb/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        </li>
+                      </ul>
+                </div>
+
+                <!-- HERO IMG -->
+                <div class="hero-img" id="home">
+                    <img src="img/jordan_logo_blanc.png" class="wow fadeInUp" data-wow-delay="0.4s" alt="hero_img" >
+                </div>
+
+                <!-- HERO-TITLE -->
+                <div class="hero-title">
+                    <!-- <h1>Jordan Boutrois</h1> -->
+                </div>
+                <!-- menu burger -->
+                <div class="overlay" onclick=" toggleMenu()">
+                    <div class="icon">
+                      <span class="menu-toggle">
+                        <ion-icon name="menu"></ion-icon>
+                      </span>
+                      <span class="close-btn hidden">
+                        <ion-icon name="close"></ion-icon>
+                      </span>
+                    </div>
+                    <nav class="menuLink">
+                          <a href="#home">Home</a>
+                          <a href="#about">About</a>
+                          <a href="#projets">Projets</a>
+                          <a href="#contact">Contact</a>
+                          <a href="#" class="blog"> <span class="span_1">Blog</span> <span class="msg">en cours de développement</span></a>
+                    </nav>
+                  </div>
+            </header>
+
+            <!-- ABOUT -->
+            <section class="about" id="about">
+                <div class="about-img">
+                    <img src="img/jordan.jpg" alt="img about" class="wow fadeInUp" data-wow-delay="0.2s">
+                </div>
+                <div class="about-text">
+                    <h2 class="wow fadeInUp" data-wow-delay="0.2s">About</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.3s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eaque tenetur quisquam animi pariatur aliquid nemo ipsa perferendis? Ea itaque natus sapiente alias consequatur, minima modi quidem quisquam incidunt qui!</p>
+                    <div class="wow fadeInUp" data-wow-delay="0.4s">
+                        <button href="https://github.com/Boutroisjordan?tab=repositories" class="button"><span>Plus d'infos</span></button>
+                    </div>
+
+                </div>
+            </section>
+            <!-- projets -->
+            <section class="projets" id="projets">
+                <h2 class="projet-h2 wow fadeInUp" data-wow-delay="0.2s" >Mes Projets</h2>
+                <div class="portfolio-main-img wow fadeInUp" data-wow-delay="0.4s">
+                    <!-- github -->
+                    <div class="shop-img-container">
+                        <a href="https://github.com/Boutroisjordan?tab=repositories" target="_blank"><img class="shop-img" src="img/github_logo.png" alt="github"></a>
+                    </div>
+                    <!-- youtube -->
+                    <div class="shop-img-container">
+                        <a href="https://www.youtube.com/channel/UCPXcdD5FYa8sxeWyeMPoegg?view_as=subscriber" target="_blank"><img class="shop-img" src="img/herison.png" alt="yt"></a>
+                    </div>
+                    <!-- Stak! -->
+                    <div class="shop-img-container">
+                        <a href="#" target="_blank"><img class="shop-img" src="img/post-insta.png" alt="stak!"></a>
+                    </div>
+                    <!-- La galerie -->
+                    <div class="shop-img-container">
+                        <a href="http://jboutrois.normandieweb.school/" target="_blank"><img class="shop-img" src="img/logo_1080px.png" alt="La Galerie"></a>
+                    </div>
+                    <!-- rampart -->
+                    <div class="shop-img-container">
+                        <a href="#" target="_blank"><img class="shop-img" src="img/rdv.png" alt="rampart"><span id="compte_a_rebours"></span></a>
+                        <!-- <span id="compte_a_rebours"></span> -->
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <div class="title-contact">
+                    <h2>Recherche une alternance</h2>
+                </div>
+                <div class="text-contact">
+                    <h3>jordanboutroispro@gmail.com</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quas laudantium aut expedita nulla, tenetur est incidunt nemo adipisci? Quibusdam sed repellat dignissimos nemo nesciunt tempore praesentium, neque voluptates aut.</p>
+                    <div class="btn">
+                        <a href="cv/cv_v2.pdf" target="_blank"><span>Mon CV</span></a>
+                    </div>
+                </div>
+                    
+                
+            </section>
+
+        <footer>
+            <div class="foot_1">
+
+            </div>
+            <div class="foot_2">
+
+            </div>
+            <div class="foot_3"></div>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
