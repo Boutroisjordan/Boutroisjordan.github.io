@@ -122,57 +122,13 @@ function compte_a_rebours()
         var mot_minute = "minutes,";
         var mot_seconde = "secondes";
 
-        if (jours == 0)
-        {
-            jours = '';
-            mot_jour = '';
-        }
-        else if (jours == 1)
-        {
-            mot_jour = "jour,";
-        }
-
-        if (heures == 0)
-        {
-            heures = '';
-            mot_heure = '';
-        }
-        else if (heures == 1)
-        {
-            mot_heure = "heure,";
-        }
-
-        if (minutes == 0)
-        {
-            minutes = '';
-            mot_minute = '';
-        }
-        else if (minutes == 1)
-        {
-            mot_minute = "minute,";
-        }
-
-        if (secondes == 0)
-        {
-            secondes = '';
-            mot_seconde = '';
-            et = '';
-        }
-        else if (secondes == 1)
-        {
-            mot_seconde = "seconde";
-        }
-
-        if (minutes == 0 && heures == 0 && jours == 0)
-        {
-            et = "";
-        }
+       
 
         compte_a_rebours.innerHTML = prefixe + jours + ' ' + mot_jour + ' ' + heures + ' ' + mot_heure + ' ' + minutes + ' ' + mot_minute + ' ' + et + ' ' + secondes + ' ' + mot_seconde;
     }
     else
     {
-        compte_a_rebours.innerHTML = 'Compte à rebours terminé.';
+        compte_a_rebours.innerHTML = 'Découvrez le projet, dès maintenant !';
     }
 
     var actualisation = setTimeout("compte_a_rebours();", 1000);
