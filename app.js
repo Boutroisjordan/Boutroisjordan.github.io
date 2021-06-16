@@ -1,21 +1,6 @@
 new WOW().init();
 
-var textWrapper = document.querySelector(".hero-title");
-textWrapper.innerHTML = textWrapper.textContent.replace(
-  /\S/g,
-  "<span class='letter'>$&</span>"
-);
-// $(document).ready(function() {
-//   anime.timeline({ loop: false }).add({
-//     targets: ".hero-title .letter",
-//     translateY: [120, 0],
-//     translateZ: 0,
-//     opacity: [0, 1],
-//     easing: "easeOutExpo",
-//     duration: 1400,
-//     delay: (el, i) => 2000 + 40 * i
-//   });
-// });
+
 
 var t1 = new TimelineMax({ paused: true });
 
