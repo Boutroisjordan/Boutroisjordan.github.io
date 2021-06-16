@@ -50,18 +50,7 @@ html, body {
 }
 
 
-.hero-img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50%;
-  overflow: hidden;
-}
 
-.hero-img img {
-  width: 100%;
-}
 
 
 /* vrai menu  */
@@ -156,6 +145,19 @@ html, body {
 .showMenu {
   transform: translateY(-5%);
   transition: 0.7s;
+}
+
+.hero-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  overflow: hidden;
+}
+
+.hero-img img {
+  width: 100%;
 }
 
   /* MEDIA */
