@@ -38,7 +38,7 @@ html, body {
 
 .hero-logo {
     position: fixed;
-    margin: 2em;
+    margin: 30px 2em;
     color: white;
     filter: difference;
     font-size: 20px;
@@ -57,7 +57,7 @@ html, body {
 
 .menu-toggle {
   width: 100px;
-  padding-top: 33px;
+  padding-top: 30px;
   position: fixed;
   right: 0;
   top: 0;
@@ -181,7 +181,7 @@ html, body {
   /* ABOUT */
 
 .about {
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     padding: 10% 0;
@@ -318,24 +318,24 @@ html, body {
 /* Contact */
 
 .contact {
-  width: 90%;
   height: 70vh;
-  margin: 0 auto;
+  margin: 0 50px;
   padding-top: 5%;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  gap: 70px;
 }
 
 .title-contact {
-  width: 35%;
+  width: 50%;
   font-size: 2em;
   text-align: right;
   font-family: 'Poppins Bld';
 }
 
 .text-contact {
-  width: 35%;
-  padding-top: 3%;
+  width: 50%;
+  overflow-wrap: break-word ;
 }
 
 .text-contact > * {
@@ -354,37 +354,7 @@ html, body {
   text-align: justify;
 }
 
-.btn a {
-  width: 150px;
-  border: 1px black solid;
-  padding: 15px 25px;
-  color: #0f0f0f;
-}
 
-.btn a span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.btn a span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.btn a:hover span {
-  padding-right: 25px;
-}
-
-.btn a:hover span:after {
-  opacity: 1;
-  right: 0;
-}
 
 
 /* FOOTER */
