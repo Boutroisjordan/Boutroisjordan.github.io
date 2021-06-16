@@ -125,6 +125,10 @@ compte_a_rebours();
 
 const popUp = document.querySelector('.pop-up');
 
-popUp.addEventListener('scroll', (e) => {
-  console.log('test');
+window.addEventListener('scroll', (e) => {
+  if (window.scrollY > 2400) {
+    popUp.style.bottom = 0;
+} else if (window.scrollY < 2400) {
+    popUp.style.bottom = -50 + "px";
+}
 })
