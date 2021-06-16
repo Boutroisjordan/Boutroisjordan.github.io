@@ -55,13 +55,12 @@ html, body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 50%;
   overflow: hidden;
 }
 
 .hero-img img {
   width: 100%;
-
 }
 
 
@@ -388,6 +387,10 @@ footer {
 }
 
 @media (max-width: 1000px) {
+  
+  .hero-img {
+    width: 100%;
+  }
   .about {
       justify-content: center;
       flex-wrap: wrap;
@@ -416,6 +419,10 @@ footer {
 
 @media (max-width: 600px) {
   
+.hero-img {
+  width: 100%;
+}
+
   .menuLink {
     font-size: 2em;
   }
