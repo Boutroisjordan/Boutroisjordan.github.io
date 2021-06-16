@@ -433,6 +433,10 @@ footer {
   width: 100%;
 }
 
+.media {
+  margin: 0 2em;
+}
+
   .menuLink {
     font-size: 2em;
   }
