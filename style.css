@@ -440,6 +440,8 @@ footer {
 .contact {
   flex-direction: column;
   gap: 10px;
+  height: auto;
+  padding-bottom: 50px;
 }
 .title-contact {
   text-align: left;
