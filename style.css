@@ -369,9 +369,8 @@ footer {
 
 @media (max-width: 1300px) {
   .contact {
-    justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
+
   }
   .title-contact {
     width: 100%;
@@ -410,6 +409,16 @@ footer {
 }
 
 @media (max-width: 600px) {
+  
+  .menuLink {
+    font-size: 2em;
+  }
+  .about {
+    height: auto;
+  }
+  .about-img img {
+    width: 350px;
+}
   .about-text {
     width: 80%;
 }
@@ -419,4 +428,27 @@ footer {
 .about-text p {
     font-size: 15px;
 }
+
+.portfolio-main-img {
+
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.shop-img-container {
+  width: 300px;
+  margin: 0 auto;
+}
+.contact {
+  flex-direction: column;
+  gap: 10px;
+}
+.title-contact {
+  text-align: left;
+  font-size: 1.5em;
+}
+.text-contact {
+  font-size: 14px;
+}
+
+
+
 }
