@@ -366,12 +366,23 @@ html, body {
 
 
 
-/* FOOTER */
+/* Pop up */
 
-footer {
+.pop-up {
+  padding: 0 10px;
   width: 100%;
-  height: 30vh;
-  background-color: gray;
+  height: 50px;
+  background-color: red;
+  border-radius: 7px 7px 0 0;
+  position: fixed;
+  bottom: -20;
+  display: flex;
+  align-items: center;
+}
+
+.pop-up h4 {
+  color: #ffffff;
+  font-family: 'Poppins reg';
 }
 
 /* queries */
@@ -468,7 +479,7 @@ footer {
   flex-direction: column;
   gap: 10px;
   height: auto;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 .title-contact {
   text-align: left;
