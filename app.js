@@ -19,6 +19,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(
 
 var t1 = new TimelineMax({ paused: true });
 
+
 TweenMax.from(".hero-logo", 2, {
   y: 20,
   opacity: 0,
