@@ -179,8 +179,10 @@ html, body {
   
   .media ul li a {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+    transition: 0.2s ease;
   }
+
 
   
 
