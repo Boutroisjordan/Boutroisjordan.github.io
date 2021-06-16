@@ -36,6 +36,8 @@ html, body {
     height: 100vh;
 }
 
+
+
 .hero-logo {
     position: fixed;
     margin: 30px 2em;
@@ -45,6 +47,21 @@ html, body {
     mix-blend-mode: difference;
     z-index: 2;
     font-size: 25px;
+}
+
+
+.hero-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-img img {
+  width: 100%;
+
 }
 
 
@@ -165,18 +182,7 @@ html, body {
   }
 
   
-  .hero-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 800px;
-  }
-  
-  .hero-img img {
-    width: 100%;
-  }
-  
+
  
   /* ABOUT */
 
@@ -447,10 +453,13 @@ footer {
   text-align: left;
   font-size: 1.5em;
 }
-.text-contact {
-  font-size: 14px;
+.text-contact p {
+  font-size: 15px;
 }
 
-
+.text-contact h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
 
 }
