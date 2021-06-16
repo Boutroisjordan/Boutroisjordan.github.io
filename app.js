@@ -121,3 +121,10 @@ function compte_a_rebours()
 }
 compte_a_rebours();
 
+// pop-up
+
+const popUp = document.querySelector('.pop-up');
+
+popUp.addEventListener('scroll', (e) => {
+  console.log('test');
+})
