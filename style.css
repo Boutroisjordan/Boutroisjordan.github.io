@@ -165,7 +165,7 @@ html, body {
     position: absolute;
     right: 0;
     bottom: 0;
-    margin: 2em;
+    margin: 1em 2em;
     z-index: 2;
   }
   
