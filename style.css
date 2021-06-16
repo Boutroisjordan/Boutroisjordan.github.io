@@ -373,6 +373,12 @@ footer {
 /* queries */
 
 @media (max-width: 1300px) {
+  
+
+  .hero-img {
+    width: 100%;
+  }
+  
   .contact {
     flex-direction: column;
 
