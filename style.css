@@ -103,7 +103,7 @@ html, body {
   justify-content: center;
   background-color: #0f0f0f;
   color: white;
-  font-size: 5em;
+  font-size: 5rem;
   z-index: 3;
 }
 
@@ -184,8 +184,6 @@ html, body {
   }
 
 
-  
-
  
   /* ABOUT */
 
@@ -194,6 +192,7 @@ html, body {
     display: flex;
     justify-content: space-around;
     padding: 10% 0;
+    margin: 0 50px;
 }
 
 
@@ -208,10 +207,10 @@ html, body {
 }
 
 .about-text {
-    width: 45%;
-    display: flex;
+    width: 50%;
+    /* display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: start; */
     padding: 50px 0;
 }
 
@@ -221,7 +220,7 @@ html, body {
 
 .about-text h2 {
     font-family: 'Poppins bld';
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .about-text p {
@@ -407,6 +406,10 @@ html, body {
   .text-contact{
     width: 100%;
   }
+
+  .menuLink {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -417,14 +420,12 @@ html, body {
   .about {
       justify-content: center;
       flex-wrap: wrap;
-      height: 90vh;
+      height: auto;
   }
   .about-text {
-      width: 70%;
+      width: 100%;
   }
-  .about-text h2 {
-      font-size: 2em;
-  }
+
   .about-text p {
       font-size: 15px;
   }
@@ -436,64 +437,63 @@ html, body {
     width: 500px;
   }
 
-
+  .contact {
+    padding-bottom: 80px;
+  }
 
 }
 
 @media (max-width: 600px) {
   
-.hero-img {
-  width: 100%;
-}
-
-.media {
-  margin: 0 2em;
-}
-
-  .menuLink {
-    font-size: 2em;
+  .hero-img {
+    width: 100%;
   }
+
+  .media {
+    margin: 0 2em;
+  }
+
+
   .about {
     height: auto;
   }
   .about-img img {
     width: 350px;
-}
-  .about-text {
-    width: 80%;
-}
-.about-text h2 {
-    font-size: 2em;
-}
-.about-text p {
+  }
+
+  .about-text h2 {
+      font-size: 2rem;
+  }
+
+
+  .portfolio-main-img {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .shop-img-container {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .contact {
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    padding-bottom: 80px;
+  }
+  
+  .title-contact {
+    text-align: left;
+    font-size: 1.5em;
+  }
+
+  .text-contact p {
     font-size: 15px;
-}
+  }
 
-.portfolio-main-img {
-
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
-.shop-img-container {
-  width: 300px;
-  margin: 0 auto;
-}
-.contact {
-  flex-direction: column;
-  gap: 10px;
-  height: auto;
-  padding-bottom: 80px;
-}
-.title-contact {
-  text-align: left;
-  font-size: 1.5em;
-}
-.text-contact p {
-  font-size: 15px;
-}
-
-.text-contact h3 {
-  font-size: 17px;
-  font-weight: bold;
-}
+  .text-contact h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
 
 }
