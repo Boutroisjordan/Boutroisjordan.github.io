@@ -31,6 +31,8 @@ html, body {
     background-color: #fff;
 }
 
+/* HEADER */
+
 .hero-section {
     background-color: #0f0f0f;
     height: 100vh;
@@ -49,11 +51,7 @@ html, body {
     font-size: 25px;
 }
 
-
-
-
-
-/* vrai menu  */
+/* MENU BURGER  */
 
 .hidden {
   display: none;
@@ -160,7 +158,7 @@ html, body {
   width: 100%;
 }
 
-  /* MEDIA */
+  /* SOCIAL MEDIA */
   .media {
     position: absolute;
     right: 0;
@@ -323,7 +321,7 @@ html, body {
 
 
 
-/* Contact */
+/* CONTACT */
 
 .contact {
   height: 50vh;
@@ -359,23 +357,23 @@ html, body {
 
 .text-contact p {
   font-family: 'Poppins reg';
-  font-size: 18px;
+  font-size: 20px;
   text-align: justify;
 }
 
 
 
 
-/* Pop up */
+/* POP UP */
 
 .pop-up {
-  padding: 0 10px;
+  padding: 0 50px;
   width: 100%;
-  height: 50px;
-  background-color: red;
+  height: 100px;
+  background-color: #F0C299;
   border-radius: 7px 7px 0 0;
   position: fixed;
-  bottom: -50px;
+  bottom: -200px;
   display: flex;
   align-items: center;
   transition: 0.5s ease;
@@ -384,9 +382,11 @@ html, body {
 .pop-up h4 {
   color: #ffffff;
   font-family: 'Poppins reg';
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
-/* queries */
+/* MEDIA QUERIES */
 
 @media (max-width: 1300px) {
   
@@ -494,6 +494,14 @@ html, body {
   .text-contact h3 {
     font-size: 1.5rem;
     font-weight: bold;
+  }
+
+  .pop-up {
+    height: 70px;
+  }
+
+  .pop-up h4 {
+    font-size: 1rem;
   }
 
 }
