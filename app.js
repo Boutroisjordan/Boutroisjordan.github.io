@@ -1,7 +1,6 @@
 new WOW().init();
 
 
-
 var t1 = new TimelineMax({ paused: true });
 
 
