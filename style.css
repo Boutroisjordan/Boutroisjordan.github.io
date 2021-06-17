@@ -327,9 +327,10 @@ html, body {
 /* Contact */
 
 .contact {
-  height: 70vh;
+  height: 50vh;
   margin: 0 50px;
   padding-top: 5%;
+  padding-bottom: 0;
   display: flex;
   flex-direction: row;
   gap: 70px;
