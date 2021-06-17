@@ -190,7 +190,7 @@ html, body {
   /* ABOUT */
 
 .about {
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: space-around;
     padding: 10% 0;
