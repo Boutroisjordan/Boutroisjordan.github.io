@@ -128,6 +128,6 @@ window.addEventListener('scroll', (e) => {
   if (window.scrollY > 2400) {
     popUp.style.bottom = 0;
 } else if (window.scrollY < 2400) {
-    popUp.style.bottom = -50 + "px";
+    popUp.style.bottom = -200 + "px";
 }
 })
